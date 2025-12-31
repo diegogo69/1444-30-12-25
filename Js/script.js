@@ -192,15 +192,15 @@ function showCountdown() {
     const now = new Date();
     let diff = now - startDate;
     let days = Math.floor(diff / (1000 * 60 * 60 * 24));
-    let eventDiff = eventDate - now;
+    // let eventDiff = eventDate - now;
+    let eventDiff = now - startDate;
     let eventDays = Math.max(0, Math.floor(eventDiff / (1000 * 60 * 60 * 24)));
     let eventHours = Math.max(0, Math.floor((eventDiff / (1000 * 60 * 60)) % 24));
     let eventMinutes = Math.max(0, Math.floor((eventDiff / (1000 * 60)) % 60));
     let eventSeconds = Math.max(0, Math.floor((eventDiff / 1000) % 60));
 
     container.innerHTML =
-      `Llevamos juntos: <b>${days}</b> días<br>` +
-      `Nuestro aniversario: <b>${eventDays}d ${eventHours}h ${eventMinutes}m ${eventSeconds}s</b>`;
+      `Desde aquella tarde de diciembre: <b>${eventDays}d ${eventHours}h ${eventMinutes}m ${eventSeconds}s</b>`;
     container.classList.add('visible');
   }
   update();
