@@ -87,9 +87,10 @@ function showDedicationText() { //seguidores
     Diciembre.
     
     En esta época de regalos, hace unos cuantos diciembres, el Niño Jesús me regaló el mejor de todos.
-    Normalmente vienen envueltos en papel de regalo, doblado y envuelto en un bonito lazo. Que inunda inunda de emoción al abrirlo.
+    Normalmente vienen envueltos en papel de regalo, doblado y envuelto en un bonito lazo. Que inunda de emoción al abrirlo.
     Éste, en cambio, vino disfrazado en lo que parecía una simple casualidad.
     Bendita casualidad.
+    Bendita coincidencia.
     
     Desde entonces diciembre también suena a vos.
     Un nuevo año teniendo la fortuna de ser tu amigo.
@@ -97,18 +98,9 @@ function showDedicationText() { //seguidores
     Y poder disfrutar de tu amistad.
     Infinitas gracias por eso.
     
-    Destino. Casualidad. Regalo o bendición del Niño Jesús. Hoy se cumple un año más de esta historia. Y bueno, como estamos en época, me voy a permitir brindar por este y muchos años más.
+    Destino. Casualidad. Regalo o bendición del Niño Jesús. Hoy se cumple un año más de esta historia. Y bueno, como estamos en época, me voy a permitir brindar por este y por muchos años más.
     
     Te quiero, supernova.
-    
-    De aquí a la luna. 
-    
-    Suena muy cursi lo sé, pero necesito un puente porque... Oh, espera ¿Qué es esto? ¿Un pasaje de viaje a la luna?.
-    Ojalá, pero es lo más parecido que pude encontrar.
-    
-    https://gifft.me/o/b/fiwo2ixtxb81ha7piqnf5u73
-    
-    (Tienes que copiar y pegar).
     `;  } else {
     text = decodeURIComponent(text).replace(/\\n/g, '\n');
   }
