@@ -132,7 +132,7 @@ function showSignature() {
     dedication.appendChild(signature);
   }
   let firma = getURLParam('firma');
-  signature.textContent = firma ? decodeURIComponent(firma) : "tq sn";
+  signature.textContent = firma ? decodeURIComponent(firma) : "diego";
   signature.classList.add('visible');
 }
 
